@@ -1,0 +1,52 @@
+body{overflow-x: hidden;}
+#warp{
+    width: 1920px; height: 3210px; background: #292c31;
+    position: relative; top: 0; left: 0;
+}
+
+.header{position: absolute; top: 0; left: 50%; margin-left: -662px;}
+
+#articleBG{
+    width: 1826px; height: 3230px;
+    position: absolute; top: 110px; left: 50%; margin-left: -913px;
+    background: #fff;
+}
+
+#viewButton{position: relative; top: 70px; left: 50%; margin-left: -387px;}
+
+
+.guige_title{font-size: 23pt;}
+
+.line{
+    width: 700px; height: 2px; background: #383a48;
+    margin-top: 15px; margin-bottom: 25px;
+}
+
+#guige1{
+    width: 1920px; height: 700px;
+    position: relative; top: 150px; left: 148px;
+}
+
+.colorguige{width: 700px; margin-right: 90px;position: absolute; top: 0; left: 0;}
+
+#color1, #color2, #color3{position: relative; top: 0; left: 0; margin-left: 20px;}
+
+.colorchip_txt{font-size: 25pt; display: inline;}
+
+.typoguige{width: 700px; position: absolute; top: 0; left: 825px;}
+
+.guige2line{width: 1546px; margin-top: 20px; margin-bottom: 25px;}
+
+.guige2_txt{
+    width: 1453px;
+    font-size: 18pt; line-height: 42pt; text-align: justify;
+    margin: 95px 0px 0px 45px;
+}
+
+.sub_logo{position: relative; top: 30px; left: 370px;}
+
+#footer{
+    position: relative; top: 0px; left: 0;
+    width: 1920px; height: 570px;
+    background: #292c31;
+}

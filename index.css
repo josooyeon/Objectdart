@@ -1,0 +1,383 @@
+body{overflow-x: hidden;}
+/*main*/
+#main{
+    width: 1920px; height: 1080px;
+    background: #292c31;
+    position: relative;
+}
+.mainTxt{
+    color: #fff; font-size: 20pt;
+    position: absolute; left: 70px; top: 300px;
+}
+.mainTxt span{font-size: 45pt; font-style: italic;}
+.mainTxt span:hover{font-style: normal;}
+.pickme{font-size: 16pt;}
+.pickmeHover{font-size: 16pt; border-bottom: 2px solid #fff;}
+.pickmeHover:hover{font-style: italic;}
+.ObjectdartBox{
+    width: 305px; height: 35px;
+    background: #9966cc;
+    position: absolute; top: 390px; left: 150px;
+}
+.ObservationBox{
+    width: 366px; height: 39px;
+    background: #9966cc;
+    position: absolute; top: 475px; left: 550px;  
+}
+.OutgrowBox{
+    width: 270px; height: 39px;
+    background: #9966cc;
+    position: absolute; top: 565px; left: 360px;  
+}
+.OutspokenBox{
+    width: 355px; height: 39px;
+    background: #9966cc;
+    position: absolute; top: 658px; left: 465px;
+}
+
+/*main-gif*/
+#gif{position: relative;}
+#gif>img{
+    width: 621px; height: 400px;
+    position: absolute; top: 320px; left: 1100px;
+    display: none;
+}
+
+/*about-resume*/
+#resume{
+    width: 100%; height: 1080px; 
+    background: url("../img/aboutBG1.jpg") no-repeat;
+    position: relative;
+}
+
+.introduce{
+    width: 520px;
+    position: absolute; top: 105px; left: 4%;
+}
+
+#outspokon_tit img{width: 632px;}
+#outspokon_tit{
+    position: absolute; top: 80px; left: 1087px;
+}
+
+.ability{
+    width: 500px;
+    position: absolute; top: 365px; left: 980px;
+}
+
+/*about-goal*/
+#goal{
+    width: 100%; height: 1000px;
+    position: relative;
+}
+
+.outgrow_img1{
+    position: absolute; top: 110px; left: 1259px;
+}
+
+.outgrow_img2{
+    position: absolute; top: 490px; left: 1346px;
+}
+
+.outgrow_tit{
+    width: 500px;
+    position: absolute; top: 125px; left: 4%;
+}
+
+.outgrow_txt{
+    position: absolute; top: 380px; left: 4%;
+}
+
+/*UI*/
+#UI_section{
+    width: 100%; height: 1080px;
+    background-image: url("../img/uiBG.jpg");
+    position: relative; top: 0; left: 0;
+}
+
+.UI_title{position: absolute; top: 200px; left: 340px;}
+.UI_renewal {position: absolute; top: 400px; left: 340px;}
+.UI_renewal_text{position: absolute; top: 460px; left: 348px;}
+.UI_renewal_text a:hover{font-weight: bold; opacity: 0.7;}
+
+#UI_section a{
+    display: block;
+    font-size: 22pt;
+    line-height: 45px;
+}
+
+.UI_branding{position: absolute; top: 700px; left: 340px;}
+.UI_branding_text{position: absolute; top: 760px; left: 348px;}
+.UI_branding_text a:hover{font-weight: bold; opacity: 0.7;}
+
+.Window_body{
+    position: absolute; top: 0; left: 50%; margin-left: -677px;
+}
+
+.UI_slider_paulbassett{
+    position: absolute; top: 215px; right: 380px;
+}
+
+/*slide*/
+#section1_wrap{
+    position: absolute; top: 215px;
+    overflow: hidden;
+    width: 660px;
+    height: 780px;
+    left: 50%;
+    margin-left: -95px;
+    
+}
+
+.slide{
+    position: absolute; top: 0;
+    width: 100%; height: 780px;
+    text-align: center;
+}
+
+.slide0{
+    left: 0;
+    background: url("../img/UI_slider_paulbassett.png") no-repeat center center;
+}
+
+.slide1{
+    left: 100%;
+    background: url("../img/UI_slider_gucci.png") no-repeat center center;
+}
+
+.slide2{
+    left: 200%;
+    background: url("../img/UI_slider_cgv.png") no-repeat center center;
+}
+
+.slide0:hover{opacity: 0.8;}
+.slide1:hover{opacity: 0.8;}
+.slide2:hover{opacity: 0.8;}
+
+/*smartDevice*/
+#smartDevice_section{
+    width: 1920px; height: 260px;
+    background: #292c31;
+    position: relative; top: 150px;
+}
+
+#smartDevice_section a{
+    display: block;
+}
+
+.sd_section1{
+    position: absolute; top: 70px; left: 1153px;
+}
+
+.sd_section2{
+    position: absolute; top: 70px; left: 1383px;
+}
+
+.sd_section3{
+    position: absolute; top: 70px; left: 1601px;
+}
+
+#smartDevice{
+    position: relative; top: 0; left: 0;
+    width: 100%; height: 3415px;
+}
+
+#smartremotecontrol{
+    width: 1100px; height: 620px;
+    background:#46495a;
+    position: absolute; top: 400px; left: 412px;
+}
+
+.smartdevice1_title{position: absolute; top: 40px; left: 30px;}
+
+.cover1_info{position: absolute; bottom: -240px; right: 50px;}
+
+/*smartdevice1_styleguide*/
+.smartdevice1_styleguide{
+    display: none;
+    width: 1100px; height: 620px;
+    background:#945e63;
+    position: absolute; top: 0px; left: 0px;
+}
+
+.smartdevice1_styleguide_title{position: absolute; top: 30px; left: 15px;}
+
+.smartdevice1_styleguide_text{position: absolute; top: 230px; left: 20px;}
+
+.smartdevice1_styleguide_device{position: absolute; top: -200px; right: 100px;}
+
+.cover1_back{position: absolute; bottom: 50px; right: -230px; cursor: pointer;}
+
+#smartphone{
+    width: 1100px; height: 620px;
+    background: #fdd367;
+    position: absolute; top: 1560px; left: 412px;
+}
+
+.smartdevice2_title{position: absolute; top: 95px; right: 110px;}
+
+.cover2_info{position: absolute; bottom: -210px; right: 50px;}
+
+/*smartdevice2_styleguide*/
+.smartdevice2_styleguide{
+    display: none;
+    width: 1100px; height: 620px;
+    background:#fff7dc;
+    position: absolute; top: 0px; left: 0px;
+}
+
+.smartdevice2_styleguide_title{position: absolute; top: 35px; left: 40px;}
+
+.smartdevice2_styleguide_text{position: absolute; top: 220px; left: 40px;}
+
+.smartdevice2_styleguide_device{position: absolute; top: -200px; right: 60px;}
+
+.cover2_back{position: absolute; bottom: 50px; right: -210px; cursor: pointer;}
+
+#smartwatch{
+    width: 1100px; height: 620px;
+    background: #ebebeb;
+    position: absolute; top: 2640px; left: 412px;
+}
+
+.smartdevice3_title{position: absolute; top: 95px; right: 65px;}
+
+.cover3_info{position: absolute; bottom: -225px; right: 50px;}
+
+/*smartdevice3_styleguide*/
+.smartdevice3_styleguide{
+    display: none;
+    width: 1100px; height: 620px;
+    background:#d5e4ea;
+    position: absolute; top: 0px; left: 0px;
+}
+
+.smartdevice3_styleguide_title{position: absolute; top: 45px; left: 40px;}
+
+.smartdevice3_styleguide_text{position: absolute; top: 230px; left: 40px;}
+
+.smartdevice3_styleguide_device{position: absolute; top: -110px; right: 35px;}
+
+.cover3_back{position: absolute; bottom: 50px; right: -210px; cursor: pointer;}
+
+/*cardnews*/
+#cardNews{
+    position: relative; top: 200px; left: 0;
+    width: 100%; height: 3415px; 
+}
+.cardNews1{
+    width: 1920px; height: 1080px; 
+    background: url("../img/cardnewsBG1.jpg") no-repeat;
+    position: relative;
+}
+.cardNews1_title, .cardNews2_title, .cardNews3_title{position: absolute; top: 80px; left: 515px;}
+.cardNews1_contents{position: absolute; bottom: 50px;}
+
+.cardNews2{
+    width: 1920px; height: 1080px; 
+    background: url("../img/cardnewsBG2.jpg") no-repeat;
+    position: relative;
+}
+.cardNews2_contents{position: absolute; left: -10px; bottom: 60px;}
+
+.cardNews3{
+    width: 1920px; height: 1080px; 
+    background: url("../img/cardnewsBG3.jpg") no-repeat;
+    position: relative;
+}
+.cardNews3_contents{position: absolute; bottom: 70px;}
+
+/*landingPage*/
+#landingPage{
+    position: relative; top: 0; left: 0;
+    width: 100%; height: 3415px; 
+}
+.landingPage1{
+    width: 1920px; height: 1080px; 
+    background: url("../img/landingPageBG1.jpg") no-repeat;
+    position: relative;
+}
+.landingPage1_title{position: absolute; top: 60px; left: 1435px;}
+.landingPage1_mockup{position: absolute; left: -40px;}
+
+.landingPage2{
+    width: 1920px; height: 1080px; 
+    background: url("../img/landingPageBG2.jpg") no-repeat;
+    position: relative;
+}
+.landingPage2_title{position: absolute; top: 80px; left: 515px;}
+.landingPage2_mockup{position: absolute; bottom: -10px; left: 90px;}
+
+.landingPage3{
+    width: 1920px; height: 1080px; 
+    background: url("../img/landingPageBG3.jpg") no-repeat;
+    position: relative;
+}
+.landingPage3_title{position: absolute; top: 60px; left: 30px;}
+.landingPage3_mockup{position: absolute; left: 470px;}
+
+/*SNS*/
+#SNS{
+    position: relative; top: -180px; left: 0;
+    width: 1920px; height: 390px;
+    background: #292c31;
+}
+.SNStxt{
+    position: absolute; top: 90px; left: 4%;
+}
+.more{
+    position: absolute; top: 200px;  left: 4%;
+}
+.instagram{
+    position: absolute; top: 205px;  left: 360px;
+}
+.facebook{
+    position: absolute; top: 200px;  left: 530px;
+}
+.behance{
+    position: absolute; top: 200px;  left: 690px;
+}
+.notefolio{
+    position: absolute; top: 200px;  left: 840px;
+}
+
+/*contact*/
+#contact{
+    position: relative; top: -180px; left: 0;
+    width: 1920px; height: 1080px;
+    background: #8d5ebc;
+}
+
+.contact_tit{
+    position: absolute; top: 60px; left: 50%; margin-left: -200px;
+}
+
+#input{
+    position: absolute; top: 390px; left: 50%; margin-left: -527px;
+    text-align: center;
+    color: #f1f6f9;
+    line-height: 55px;
+}
+
+input{
+    width: 657px;
+    border:none;
+    border-bottom: 2px solid #f1f6f9;
+    background: #8d5ebc;
+    color: #f1f6f9;
+}
+
+#name, #email{
+   height: 140px;
+}
+
+.messageLine{
+    width: 1055px;
+    line-height: 130px;
+}
+
+#send{
+    position: absolute; bottom: 80px; left: 50%; margin-left: -108px;
+}
+
+.sendHover{display: none;}
